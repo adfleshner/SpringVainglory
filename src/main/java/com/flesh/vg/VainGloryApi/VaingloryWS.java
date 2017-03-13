@@ -12,7 +12,10 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
+import java.util.Properties;
 
 /**
  * Created by aaronfleshner on 3/13/17.
@@ -29,7 +32,22 @@ public class VaingloryWS {
         mVainglorRetrofit = new Retrofit.Builder().addConverterFactory(GsonConverterFactory.create(gson)).client(addVainGloryClientBuilder().build()).baseUrl(baseUrl).build();
     }
 
+
+    private void getApiKey(){
+        Properties properties = new Properties();
+        InputStream inputStream =
+                this.getClass().getClassLoader().getResourceAsStream("local.properties");
+        try {
+            properties.load(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        apiKey=properties.getProperty("apiKey");
+    }
+
     private OkHttpClient.Builder addVainGloryClientBuilder(){
+        //get api key from local properties
+        getApiKey();
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
         builder.addInterceptor(chain -> {
             Request original = chain.request();
