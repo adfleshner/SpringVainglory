@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class VaingloryWS {
 
-    private String apiKey = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJhYmIzYTFkMC1lOWVlLTAxMzQtOWY2Ni0wMjQyYWMxMTAwMGIiLCJpc3MiOiJnYW1lbG9ja2VyIiwib3JnIjoiYWRmbGVzaG5lci1nbWFpbC1jb20iLCJhcHAiOiJhYmIxYzM0MC1lOWVlLTAxMzQtOWY2NS0wMjQyYWMxMTAwMGIiLCJwdWIiOiJzZW1jIiwidGl0bGUiOiJ2YWluZ2xvcnkiLCJzY29wZSI6ImNvbW11bml0eSIsImxpbWl0IjoxMH0.EHANNtOT0S5ZecqPxgrrT2fl6nA65KbrbIHpNrPm9AQ";
+    private String apiKey = "";
     private String baseUrl = "https://api.dc01.gamelockerapp.com/shards/";
     private Retrofit mVainglorRetrofit;
 
