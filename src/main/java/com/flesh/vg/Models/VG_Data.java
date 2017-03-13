@@ -3,6 +3,7 @@ package com.flesh.vg.Models;
 import java.util.List;
 
 /**
+ * Vainglory Data Object
  * Created by aaronfleshner on 3/13/17.
  */
 public class VG_Data {

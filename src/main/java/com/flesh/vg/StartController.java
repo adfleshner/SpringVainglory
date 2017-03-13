@@ -11,20 +11,17 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import javax.jws.WebService;
-import java.util.List;
-
 /**
+ * Where the Website starts
  * Created by aaronfleshner on 3/13/17.
  */
 @RestController
 public class StartController {
 
-    VaingloryWS ws = new VaingloryWS();
+    private VaingloryWS ws = new VaingloryWS();
 
     @RequestMapping("/")
     public ResponseEntity<String> home(){
-
         ws.getVaingloryPlayer("fl3sh",new Callback<VG_Data>() {
             @Override
             public void onResponse(Call<VG_Data> call, Response<VG_Data> response) {

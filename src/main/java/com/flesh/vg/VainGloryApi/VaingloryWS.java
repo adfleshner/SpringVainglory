@@ -1,23 +1,20 @@
 package com.flesh.vg.VainGloryApi;
 
 import com.flesh.vg.Models.VG_Data;
-import com.flesh.vg.Models.VG_Item;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
-import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 import java.util.Properties;
 
 /**
+ * Starting the Web service
  * Created by aaronfleshner on 3/13/17.
  */
 public class VaingloryWS {
