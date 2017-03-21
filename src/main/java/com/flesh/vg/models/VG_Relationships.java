@@ -1,4 +1,4 @@
-package com.flesh.vg.Models;
+package com.flesh.vg.models;
 
 /**
  * Not usre What this is to yet

@@ -1,4 +1,4 @@
-package com.flesh.vg.VainGloryApi;
+package com.flesh.vg.vainglory;
 
 /**
  * All of the regions

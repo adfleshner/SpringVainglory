@@ -1,9 +1,7 @@
 package com.flesh.vg;
 
-import com.flesh.vg.Models.VG_Data;
-import com.flesh.vg.Models.VG_Item;
-import com.flesh.vg.VainGloryApi.VaingloryApi;
-import com.flesh.vg.VainGloryApi.VaingloryWS;
+import com.flesh.vg.models.VG_Data;
+import com.flesh.vg.vainglory.VaingloryWS;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,6 +1,6 @@
-package com.flesh.vg.VainGloryApi;
+package com.flesh.vg.vainglory;
 
-import com.flesh.vg.Models.VG_Data;
+import com.flesh.vg.models.VG_Data;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import okhttp3.OkHttpClient;

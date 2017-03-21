@@ -1,6 +1,6 @@
-package com.flesh.vg.VainGloryApi;
+package com.flesh.vg.vainglory;
 
-import com.flesh.vg.Models.VG_Data;
+import com.flesh.vg.models.VG_Data;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

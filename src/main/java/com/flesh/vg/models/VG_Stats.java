@@ -1,4 +1,4 @@
-package com.flesh.vg.Models;
+package com.flesh.vg.models;
 
 /**
  * All Vainglory stats I have seen so far.
