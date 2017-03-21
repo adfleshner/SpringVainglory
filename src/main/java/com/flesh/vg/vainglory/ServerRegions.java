@@ -5,9 +5,9 @@ package com.flesh.vg.vainglory;
  * Created by aaronfleshner on 3/13/17.
  */
 class ServerRegions {
-    static final String NA = "na";
-    static final String EUR = "eu";
-    static final String SA = "sa";
-    static final String EA = "ea";
-    static final String SEA = "sg";
+    public static final String NA = "na";
+    public static final String EUR = "eu";
+    public static final String SA = "sa";
+    public static final String EA = "ea";
+    public static final String SEA = "sg";
 }
